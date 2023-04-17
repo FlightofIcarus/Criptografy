@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Criptografador de texto">
     <title>Criptografy</title>
     <link rel="shortcut icon" href="/assets/images/cript-icon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,17 +13,27 @@
     <link rel="stylesheet" href="/assets/CSS/style-desktop.css">
     <link rel="stylesheet" href="/assets/CSS/style-tablet.css">
     <link rel="stylesheet" href="/assets/CSS/style-smart.css">
+    <script src="https://kit.fontawesome.com/600b4e7b52.js" crossorigin="anonymous"></script>
+    <script src="/assets/JS/index.js" defer></script>
 </head>
 <body>
    <main>
-        <input type="text" name="your-text" id="textinput" placeholder="Digite seu texto">
-        <section id="bottons">
-            <button id="cript">Criptografar</button>
-            <button id="descript">Descriptografar</button>
-        </section>
-   </main>
+        <div>
+            <textarea name="your-text" id="textinput" placeholder="Digite seu texto"></textarea>
+            <p><i class="fa-solid fa-circle-exclamation"></i>Apenas letras minúsculas e sem acento.</p>
+            <section id="bottons">
+                <button id="cript">Criptografar</button>
+                <button id="descript">Descriptografar</button>
+            </section>
+        </div>
+    </main>
    <aside>
-
+        <section id="respost">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <p id="result">
+                Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+        </section>
    </aside>
 </body>
 </html>

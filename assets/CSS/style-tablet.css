@@ -1,18 +1,37 @@
 @media (max-width: 991.98px) {
     body {
-        padding: 40px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 100vh;
-        background-color: #33ff00;
+        width: 95vw;
+        
+        }
+
+        main {
+            padding-left: 20px;
+            padding-top: 68px;
+            width: 100%;
+        }
+
+        #textinput {
+            width: 100%;
         }
 
         aside {
             background: #fff;
-            background-size: 304px;
             height: 40%;
             width: 100%;
+            margin: 0 auto;
+        }
+
+        #respost {
+            margin: 50px 32px;
+            padding: 0 20px ;
+            text-align: center;
+            display: block;
+            width: 85vw;
         }
 
         #bottons {
